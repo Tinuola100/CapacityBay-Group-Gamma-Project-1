@@ -1,3 +1,120 @@
+ master
+
+body {
+    background-color: rgb(201, 189, 189);
+    overflow: hidden;
+    margin: 0%;
+
+}
+
+.Container {
+   display: flex;
+   justify-items: center;
+   margin: auto;
+   height: 50%;
+   width: 100%;
+}
+
+.box-container {
+    height: 40%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(11, 0, 46);
+    flex-wrap: wrap;
+    
+}
+
+.box1 {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px 40px;
+    color: white;
+    background: linear-gradient( rgb(255, 106, 0), rgb(255, 0, 255));
+}
+.box {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 300px;
+    margin: 20px 40px;
+    border-radius: 10px;
+}
+.logo{
+    padding: 10px 10px;
+    display: inline-block;
+    background: linear-gradient( rgb(255, 106, 0), rgb(255, 0, 255));
+    border-radius: 100%;
+    margin: 10px 10px;
+}
+
+.text{
+    margin: 30px;
+    font-size: 20px;
+}
+p {
+    padding: 0px 20px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.Title {
+    font-weight: bolder;
+    padding: 0px 20px;
+    font-size: 30px;
+}
+
+.Subtitle {
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 0px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(223, 21, 132);
+}
+
+footer {
+    background-color: rgba(5, 5, 56, 0.906);
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    position: relative;
+    top:440px;
+    
+}
+
+.skilled {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 600px;
+}
+
+.btn {
+    color: white;
+    font-size: 14px;
+    background-color: rgba(229, 38, 194, 0.763);
+    border-radius: 20px;
+    height: 1cm;
+    border: none;
+    width: 100px;
+    background: linear-gradient( rgb(52, 4, 71), rgb(255, 4, 196));
+}
+@media only screen (max-width: 414px) {
+    
+    .box-Container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+     }
+     .box{
+         width: fit-content;
+     }
+     .box1{
+        width: fit-content;
+     }
+=======
 *{
     margin: 0;
     padding: 0;
