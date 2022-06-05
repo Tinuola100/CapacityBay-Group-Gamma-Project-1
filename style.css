@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: #0496c2; */
+    
+}
+.top{
+    background: linear-gradient(#03033a,#0496c2);
+    /* width: 100vw; */
+    height: 100vh;
+    position: relative;
+    padding: 0 15%;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav .logo{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 800;
+}
+nav .started-btn{
+    background-color: #040450;
+    width: fit-content;
+    height: fit-content;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    font-size: 1.1rem;
+}
+
+/* Right Part */
+.top .img-background{
+    width: 900px;
+    height: 450px;
+    background: linear-gradient(rgba(28, 28, 194, 0.7),rgba(133, 5, 133, 0.7), rgba(5, 5, 100, 0.7));
+    clip-path: polygon(100% 0, 100% 60%, 40% 150%, 65% 79%, 57% 65%, 97% 0);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.top img{
+    width: 15rem;
+    height: 25rem;
+    border-radius: 120px;
+    position: absolute;
+    top: 5.4rem;
+    right: 12.8rem;
+    float: right;
+}
+
+.top .on-image .members{
+    width: 75px;
+    height: 25px;
+    background-color: #ffffff;
+    padding: 1.7rem 1rem;
+    border-radius: 10px;
+    position: absolute;
+    right: 120px;
+    top: 175px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.top .on-image .course-hrs{
+    width: 105px;
+    height: 25px;
+    background-color: #ffffff;
+    padding: 1.7rem 1rem;
+    border-radius: 10px;
+    position: absolute;
+    right: 400px;
+    top: 330px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 2px 25px 50px 0 #d2d0e0;
+}
+.top .on-image .members p{
+    color: #5e5c5c;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.top .on-image .course-hrs p{
+    color: #5e5c5c;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 414px) {
+    .top{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .top .img-background{
+        display: none;
+    }
+    .top img{
+        border-radius: 100%;
+        height: 15rem;
+        top: 28rem;
+        transform: translate(50%, 50%)
+    }
+    .top .on-image .members{
+        top: 34rem;
+        left: 16rem;
+    }
+    .top .on-image .course-hrs{
+        top: 45rem;
+        left: 2rem;
+    }
+    .top .info{
+        width: 100%;
+    }
+    
+}
+/* Right Part End */
+
+.top .info{
+    /* background-color: #640c64; */
+    max-width: 500px;
+    /* margin: auto; */
+    position: absolute;
+    transform: translateY(50%);
+}
+
+.top .info h1{
+    font-size: 3rem;
+}
+.top .info p{
+    margin-top: 25px;
+    /* max-width: 500px; */
+    line-height: 1.5rem;
+    max-width: 350px;
+}
+
+.top .started-btn2{
+    /* margin-top: 20px; */
+    background: linear-gradient(to top, rgba(133, 5, 133, 0.8), rgba(236, 117, 4, 0.8) );
+    width: 7rem;
+    height: 1rem;
+    color: #ffffff;
+    padding: 1.3rem;
+    border-radius: 50px;
+    text-align: center;
+    /* font-size: 1.1rem; */
+    position: absolute;
+    /* transform: translateY(50%); */
+    top: 450px;
+}
